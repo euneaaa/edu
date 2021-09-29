@@ -6,7 +6,7 @@ public class IfTest4 {
 
         //부장이면 "700만원"    과장이면 "500만원"    부장,과장이 아니면 "300만원"
 
-        if (position.equals("부장")){
+        if (position.equals("부장")){         //("부장".equals(position))를 더 자주쓴다.
             System.out.println("700만원");
         }else if (position.equals("과장")){
             System.out.println("500만원");

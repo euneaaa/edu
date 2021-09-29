@@ -15,7 +15,7 @@ public class StringEqualsExample {
 
         System.out.println("str1.equals(str2) : "+ str1.equals(str2));
         System.out.println("str2.equals(str1) : "+ str2.equals(str1));
-        //문자열 자체를 비교하기 위해선 equals를 이용. 서로 위치가 바뀌어도 상관 없다.
+        //문자열 자체를 비교하기 위해선 변수명1.equals(변수명2)를 이용. 서로 위치가 바뀌어도 상관 없다.
         System.out.println("str3.equals(str1) : "+ str3.equals(str1));
 
     }

@@ -6,7 +6,5 @@ public class OperatorExample6 {
         int n2 = 0;
 
         System.out.println(n1 / n2);
-
-
     }
 }

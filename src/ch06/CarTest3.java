@@ -13,7 +13,7 @@ public class CarTest3 {
         car2 = car;
         System.out.println("car2.nm : " + car2.nm);
 
-        Car car3 = new Car("1",1);
+        Car car3 = new Car("1","1");
         car3.drive();
 
     }

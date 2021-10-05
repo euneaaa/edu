@@ -17,5 +17,8 @@ public class CalcTest {
 
         int result2 = calc.sum();
         System.out.println("instance sum : "+result2);
+
+        int result3 = calc.sum(10,30);
+
     }
 }

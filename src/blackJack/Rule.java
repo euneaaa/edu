@@ -20,7 +20,7 @@ public class Rule {
 
         if((dealerScore>21&&gamerScore>21)||(dealerScore==gamerScore)){
             System.out.println("비겼습니다.");
-        }else if(dealerScore>21||(gamerScore<21&&dealerScore<gamerScore)){
+        }else if(dealerScore>21||(gamerScore<=21&&dealerScore<gamerScore)){
             System.out.println("게이머의 승리입니다.");
         }else
             System.out.println("딜러의 승리입니다.");

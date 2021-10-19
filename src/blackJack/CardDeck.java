@@ -39,7 +39,7 @@ public class CardDeck {
     }
     //항상 랜덤한 카드를 준다
     public Card getCard(){
-        //if 콜렉션을 배열로 했다면 먼저 섞고, 순차적으로 카드를 줬을것이다.
+        //if 콜렉션을 배열로 했다면 먼저 섞고, 순차적으로 카드를 주었을 것이다.
         //if 콜렛션을 ArrayList로 했다면 랜덤하게 카드를 준다.
         int ridx= (int)(Math.random()* cards.size());
         return cards.remove(ridx);

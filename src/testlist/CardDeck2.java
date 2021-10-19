@@ -1,7 +1,5 @@
 package testlist;
 
-import testlist.Card;
-
 public class CardDeck2 {
     public static void main(String[] args) {
         int sum =0;

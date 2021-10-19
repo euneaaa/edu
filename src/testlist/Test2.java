@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Test2 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+        System.out.println("달을 입력하세요");
         int mon = scan.nextInt();
-
         System.out.println("mon : "+ mon);
         switch(mon){
             case 12 : case 1: case 2:

@@ -4,10 +4,14 @@ import testlist.Card;
 
 public class CardDeck {
 
-    public void deckshow(){
+    private Card[] cards = new Card[52];
+
+    public CardDeck(){
+        init();
+    }
+    public void init(){
         int add =0;
         String[] patters = {"스페이드","하트","클럽","다이아몬드"};
-        Card[] cards = new Card[52];
         for(int i=0; i<patters.length; i++){
             for(int z=1; z<=13;z++){
                 String number = null;
@@ -25,11 +29,13 @@ public class CardDeck {
                 }
                 Card c = new Card(patters[i],number);
                 cards[add]= c;
-                if(add!=51){add+=1;}
+                add+=1;
             }
         }
-        for(int i=0; i<cards.length; i++) {
-            System.out.println(cards[i]);
+    }
+    public void showAllCard(){
+        for(int i=0; i<cards.length; i++){
+        System.out.println(cards[i]);
         }
     }
 

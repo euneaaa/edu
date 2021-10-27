@@ -10,7 +10,7 @@ public class WhileTest {
         num = scan.nextInt();
 
         while (num!=0){
-            sum = sum+num;      //sum+=num???
+            sum = sum+num;
             System.out.println("숫자를 입력하세요 (정지:0) : ");
             num = scan.nextInt();
         }

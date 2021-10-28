@@ -87,7 +87,6 @@ class Array3 {
         System.out.println("최소값 : " + min);
     }
 }
-
 class asdff {
     public static void main(String[] args) {
         //두수의 최대공약수
@@ -103,18 +102,21 @@ class asdff {
         }
         System.out.println(max);
 
-        int[] array1 = {23, 4, 25, 26, 5, 1};
+        int[] array1 = {5,6,80,65,14,65,24};
         int a ;
         for (int i = 0; i <array1.length ; i++) {
             for (int j =0; j <array1.length; j++) {
-                if(array1[i]>array1[j]){
+                if(array1[i]<array1[j]){
                     a = array1[j];
                     array1[j]=array1[i];
                     array1[i]=a;
                 }
             }
         }
-        
+        for(int nums : array1) {
+            System.out.println(nums);
+        }
+
 
     }
 }

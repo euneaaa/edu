@@ -117,6 +117,14 @@ class asdff {
             System.out.println(nums);
         }
 
-
+        int[] array2 = {6,74,13,35,4,85,68,94,51};
+        int b ;
+        for(int i = 0 ; i<array2.length; i++) {
+            for (int j = 0; j < array2.length; j++){
+                if(array2[j]>array2[j+1]){
+                    b=array2[j+1];
+                }
+            }
+        }
     }
 }

@@ -87,3 +87,34 @@ class Array3 {
         System.out.println("최소값 : " + min);
     }
 }
+
+class asdff {
+    public static void main(String[] args) {
+        //두수의 최대공약수
+        int n1 = 50;
+        int n2 = 35;
+        int max = 0;
+        for (int i = 1; i <= n1; i++) {
+            if (n1 % i == 0 && n2 % i == 0) {
+                if (i > max) {
+                    max = i;
+                }
+            }
+        }
+        System.out.println(max);
+
+        int[] array1 = {23, 4, 25, 26, 5, 1};
+        int a ;
+        for (int i = 0; i <array1.length ; i++) {
+            for (int j =0; j <array1.length; j++) {
+                if(array1[i]>array1[j]){
+                    a = array1[j];
+                    array1[j]=array1[i];
+                    array1[i]=a;
+                }
+            }
+        }
+        
+
+    }
+}

@@ -9,7 +9,7 @@ public class baekjoon1110 {
         ArrayList cycle = new ArrayList();
         int N = sc.nextInt();
         int result = 0;
-        while (N != result){
+        while (true){
             int f = 0;
             if(result ==0){
                 f= N;
@@ -25,6 +25,9 @@ public class baekjoon1110 {
             String res = b+""+re;
             result = Integer.parseInt(res);
             cycle.add(result);
+            if(N==result){
+                break;
+            }
         }
         System.out.println(cycle.size());
     }

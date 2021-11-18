@@ -14,7 +14,7 @@ public class baekjoon11021 {
         }
         System.out.println(T);
         for(int i=0; i<array.length; i++){
-            System.out.printf("Case #%d : %d\n", (i+1), array[i]);
+            System.out.printf("Case #%d: %d\n", (i+1), array[i]);
         }
     }
 }
